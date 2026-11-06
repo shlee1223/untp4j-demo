@@ -1,0 +1,17 @@
+{
+  "@context" : [ "https://www.w3.org/ns/did/v1", "https://w3id.org/security/jwk/v1" ],
+  "id" : "did:web:shlee1223.github.io:untp4j-demo",
+  "verificationMethod" : [ {
+    "id" : "did:web:shlee1223.github.io:untp4j-demo#key-1",
+    "type" : "JsonWebKey",
+    "controller" : "did:web:shlee1223.github.io:untp4j-demo",
+    "publicKeyJwk" : {
+      "kty" : "EC",
+      "crv" : "P-256",
+      "kid" : "did:web:shlee1223.github.io:untp4j-demo#key-1",
+      "x" : "wpvxtkiAsMcx6YXjt_vFYnW5P9BJ9BX0wP53atDnbw8",
+      "y" : "AN4MU5kLKAiVzI43y6LTGb_roE8sZXqCtiB7oOJXvKQ"
+    }
+  } ],
+  "assertionMethod" : [ "did:web:shlee1223.github.io:untp4j-demo#key-1" ]
+}
